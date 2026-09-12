@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="www.stimmewirkt.de – der klare Einstieg zu einer sprechenden Unternehmenswebsite.">
+  <meta name="description" content="www.stimmewirkt.de – eine sprechende Webseite mit klar abgestimmten Inhalten.">
   <title>www.stimmewirkt.de – Sprechende Webseite</title>
   <link rel="stylesheet" href="/styles.css">
   <script src="/app.js" defer></script>
 </head>
-<body>
+<body class="marketing">
   <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
   <header class="site-header">
     <div class="top-left">
@@ -18,63 +18,67 @@
         <button type="button" id="history-forward" title="Vor" aria-label="Vor">→</button>
       </div>
     </div>
-    <nav aria-label="Hauptnavigation">
-      <a href="#vorteile">Ihre Vorteile</a>
-      <a href="#ablauf">So funktioniert es</a>
-      <a href="#start">Starten</a>
-    </nav>
+    <nav aria-label="Hauptnavigation"><a href="#vorteile">Ihre Vorteile</a><a href="#ablauf">So funktioniert es</a><a class="nav-cta" href="#anfrage">Unverbindlich starten</a></nav>
   </header>
 
   <main id="inhalt">
-    <section class="hero" id="start">
-      <p class="eyebrow"><span class="dot"></span> Die Stimme für Ihre Website</p>
-      <h1>Überraschen Sie Ihre Kunden<br>mit einer <em>sprechenden Webseite.</em></h1>
-      <p class="lead">Ihre Besucher können fragen, nachhaken und sich orientieren. Sie entscheiden, welche Informationen Ihre Website vermittelt.</p>
-      <a class="button accent" href="#anfrage">Meine Website besprechen <span aria-hidden="true">↓</span></a>
-      <div class="quiet-benefits" aria-label="Die drei Schritte"><span>Website ansehen</span><span>Inhalte abstimmen</span><span>Besucher begleiten</span></div>
+    <section class="welcome">
+      <div class="welcome-copy">
+        <p class="eyebrow"><span class="dot"></span> Die Stimme für Ihre Website</p>
+        <h1>Wie wirkt<br><em>Ihre eigene Website?</em></h1>
+        <p class="welcome-lead">Besucher können fragen, nachhaken und sich orientieren. Sie entscheiden vorher, welche Informationen Ihre Website vermittelt – klar, hilfreich und in Ihrem Ton.</p>
+        <div class="welcome-actions"><a class="button accent" href="#anfrage">Meine Website besprechen <span aria-hidden="true">↗</span></a></div>
+        <p class="access-note">Unverbindlich. Keine Zugangsdaten, keine automatische Aktivierung.</p>
+        <div class="quiet-benefits" aria-label="Die drei Schritte"><span>Website ansehen</span><span>Inhalte abstimmen</span><span>In Ruhe prüfen</span></div>
+      </div>
     </section>
 
-    <section class="benefits" id="vorteile" aria-labelledby="vorteile-title">
-      <div>
-        <p class="eyebrow">Ein Gespräch, das zu Ihnen passt</p>
-        <h2 id="vorteile-title">Ihre Website bleibt<br><em>Ihre Stimme.</em></h2>
-      </div>
+    <div class="fit-line"><span>Für den ersten guten Eindruck.</span><div>Handwerk <b>·</b> Beratung <b>·</b> Dienstleistung</div></div>
+
+    <section class="benefit-section" id="vorteile" aria-labelledby="vorteile-title">
+      <div class="section-intro"><p class="eyebrow">Nähe beginnt mit Zuhören</p><h2 id="vorteile-title">Ihre Besucher haben Fragen.<br><em>Geben Sie ihnen Orientierung.</em></h2></div>
       <div class="benefit-grid">
-        <article><span>01</span><h3>Einfach erklären</h3><p>Ihre Besucher erhalten Antworten aus den Informationen, die Sie vorher gemeinsam bestätigt haben.</p></article>
-        <article><span>02</span><h3>Natürlich reagieren</h3><p>Fragen, Rückfragen und Themenwechsel dürfen sich wie ein echtes Gespräch anfühlen.</p></article>
-        <article><span>03</span><h3>Klar begrenzen</h3><p>Was Ihre Website nicht wissen oder zusagen soll, bleibt auch im Gespräch klar ausgeschlossen.</p></article>
+        <article><span class="benefit-number">01</span><h3>Schneller zur Antwort.</h3><p>Wichtige Informationen verständlich vermitteln, statt Besucher durch lange Wege zu schicken.</p></article>
+        <article><span class="benefit-number">02</span><h3>Leichter im Gespräch.</h3><p>Rückfragen zulassen, einen Punkt genauer erklären und immer beim bestätigten Inhalt bleiben.</p></article>
+        <article><span class="benefit-number">03</span><h3>Mehr Raum für Interesse.</h3><p>Besucher bei ihrem Anliegen begleiten und einen passenden nächsten Kontakt ermöglichen.</p></article>
       </div>
     </section>
 
-    <section class="steps" id="ablauf" aria-labelledby="ablauf-title">
-      <div class="steps-copy"><p class="eyebrow">Der Weg zur sprechenden Webseite</p><h2 id="ablauf-title">Erst verstehen.<br><em>Dann sprechen.</em></h2><p>Keine Zugangsdaten in ein Formular: Wir klären zuerst, ob Ihre öffentliche Website und Ihr Vorhaben zusammenpassen.</p></div>
-      <ol>
+    <section class="try-banner" aria-labelledby="try-title">
+      <div><p class="eyebrow">Erst verstehen, dann sprechen</p><h2 id="try-title">Ihre Website.<br><em>Im Gespräch.</em></h2><p>Gemeinsam legen wir fest, was erklärt werden darf<br>und was offenbleibt.</p></div>
+      <div class="try-action"><a class="button accent" href="#anfrage">Unverbindlich starten <span aria-hidden="true">↓</span></a><span>Erst nach Ihrer persönlichen Hörabnahme geht es weiter.</span></div>
+    </section>
+
+    <section class="process-section" id="ablauf" aria-labelledby="ablauf-title">
+      <div class="process-copy"><p class="eyebrow">Der Weg zur sprechenden Webseite</p><h2 id="ablauf-title">Ein klarer Start.<br><em>Ein persönlicher Auftritt.</em></h2><p>Wir beginnen bewusst ohne Zugänge oder automatische Auswertung. Zuerst klären wir, ob Ihr Vorhaben und Ihre öffentliche Website zusammenpassen.</p></div>
+      <ol class="simple-steps">
         <li><span>1</span><div><strong>Website ansehen</strong><small>Wir betrachten gemeinsam den öffentlichen Ausgangspunkt.</small></div></li>
-        <li><span>2</span><div><strong>Inhalte bestätigen</strong><small>Sie legen fest, was Besucher hören dürfen und was offenbleibt.</small></div></li>
-        <li><span>3</span><div><strong>In Ruhe prüfen</strong><small>Erst nach Ihrer Funktions- und Hörabnahme geht es weiter.</small></div></li>
+        <li><span>2</span><div><strong>Inhalte bestätigen</strong><small>Sie bestimmen, was Besucher hören dürfen und was nicht.</small></div></li>
+        <li><span>3</span><div><strong>Selbst erleben</strong><small>Erst nach Funktionsprüfung und Ihrer Hörabnahme wird entschieden.</small></div></li>
       </ol>
     </section>
 
-    <section class="inquiry" id="anfrage" aria-labelledby="anfrage-title">
+    <section class="inquiry-section" id="anfrage" aria-labelledby="anfrage-title">
       <div><p class="eyebrow">Unverbindlich starten</p><h2 id="anfrage-title">Wie würde Ihre<br><em>Website wirken?</em></h2><p>Teilen Sie uns die öffentliche Adresse Ihrer Unternehmenswebsite mit. Es wird dabei noch nichts eingelesen oder aktiviert.</p></div>
       <form id="website-inquiry" novalidate>
         <label for="website">Ihre Unternehmenswebsite</label>
-        <div class="input-row"><input id="website" name="website" type="url" inputmode="url" autocomplete="url" placeholder="https://www.ihr-unternehmen.de" required><button class="button" type="submit">Nächster Schritt <span aria-hidden="true">→</span></button></div>
-        <p class="fine">Mit dem nächsten Schritt öffnen Sie lediglich eine neue E-Mail an uns. Sie versenden erst selbst aus Ihrem E-Mail-Programm.</p>
+        <div class="website-input-row"><input id="website" name="website" type="url" inputmode="url" autocomplete="url" placeholder="https://www.ihr-unternehmen.de" required><button class="button" type="submit">Nächster Schritt <span aria-hidden="true">→</span></button></div>
+        <p class="fine">Mit dem nächsten Schritt öffnet sich nur eine vorbereitete E-Mail. Versendet wird sie erst von Ihnen selbst.</p>
         <p id="form-message" role="status" aria-live="polite"></p>
       </form>
     </section>
 
-    <section class="faq" aria-labelledby="faq-title">
-      <div><p class="eyebrow">Gut zu wissen</p><h2 id="faq-title">Die wichtigen Fragen<br><em>vor dem Start.</em></h2></div>
+    <section class="marketing-faq" aria-labelledby="faq-title">
+      <div><p class="eyebrow">Noch eine Frage?</p><h2 id="faq-title">Gut zu wissen.</h2></div>
       <div>
         <details><summary>Brauche ich technisches Wissen?</summary><p>Nein. Für die erste Besprechung genügt Ihre öffentliche Website. Zugänge bleiben bei Ihnen und werden nicht über diese Seite abgefragt.</p></details>
-        <details><summary>Was passiert mit meiner Website-Adresse?</summary><p>Diese Seite speichert keine Eingabe. Erst wenn Sie die vorbereitete E-Mail in Ihrem E-Mail-Programm selbst versenden, erhalten wir Ihre Nachricht.</p></details>
-        <details><summary>Wann wird eine Stimme wirklich eingesetzt?</summary><p>Erst nach gemeinsamer Einrichtung, technischer Funktionsprüfung und Ihrer persönlichen Hörabnahme.</p></details>
+        <details><summary>Was passiert mit meiner Website-Adresse?</summary><p>Diese Seite speichert keine Eingabe. Erst wenn Sie die vorbereitete E-Mail selbst versenden, erhalten wir Ihre Nachricht.</p></details>
+        <details><summary>Wann geht es wirklich los?</summary><p>Erst nach gemeinsamer Einrichtung, technischer Funktionsprüfung und Ihrer persönlichen Hörabnahme.</p></details>
       </div>
     </section>
-  </main>
 
-  <footer><span>© 2026 www.stimmewirkt.de</span><div><a href="/datenschutz">Datenschutz</a><a href="/impressum">Anbieterinformationen</a></div></footer>
+    <section class="closing"><span class="brandmark" aria-hidden="true"><i></i><i></i><i></i></span><h2>Wie würde Ihre Website wirken?</h2><a class="plain-link" href="#anfrage">Finden Sie es heraus <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer><span>© 2026 www.stimmewirkt.de · Ihre Website. Im Gespräch.</span><div><a href="/datenschutz">Datenschutz</a><a href="/impressum">Anbieterinformationen</a></div></footer>
 </body>
 </html>
