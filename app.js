@@ -15,5 +15,5 @@ form?.addEventListener('submit',(event)=>{
   const subject=encodeURIComponent('Anfrage: sprechende Webseite');
   const body=encodeURIComponent(`Guten Tag,\n\nich möchte meine Website unverbindlich besprechen:\n${website.href}\n\nBitte melden Sie sich bei mir.\n`);
   message.textContent='Ihr E-Mail-Programm wird geöffnet. Versendet wird die Nachricht erst von Ihnen selbst.';
-  window.location.href=`mailto:support@deinewebstimme.de?subject=${subject}&body=${body}`;
+  window.location.href=`mailto:support@stimmewirkt.de?subject=${subject}&body=${body}`;
 });
