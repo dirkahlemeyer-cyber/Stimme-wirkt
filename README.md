@@ -1,4 +1,4 @@
-# www.stimme-wirkt.de
+# www.stimmewirkt.de
 
 Separate public website for the “sprechende Webseite” offer. It is static by design: no database, OpenAI integration, microphone flow, customer login, tracking, or automatic website ingestion is included.
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.stimme-wirkt.de/sitemap.xml
+Sitemap: https://www.stimmewirkt.de/sitemap.xml
