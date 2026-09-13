@@ -1,5 +1,5 @@
-# Maya Website
+# www.stimmewirkt.de
 
-Public sales site for the Maya Website proposal, served through the existing `stimmewirkt.de` Vercel project. It is deliberately static: no database, public speech feature, customer login, tracking, automatic website analysis, payment, or order creation is included.
+Separate public website for the “sprechende Webseite” offer. It is static by design: no database, OpenAI integration, microphone flow, customer login, tracking, or automatic website ingestion is included.
 
-The inquiry form only prepares a pre-addressed email; sending remains the visitor's action. A future protected owner area is outside this public-site scope and needs separate authentication, privacy, contractual and operational review before implementation.
+The inquiry form only opens a pre-addressed email; sending remains the visitor's action.

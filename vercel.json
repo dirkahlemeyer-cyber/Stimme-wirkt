@@ -2,8 +2,13 @@
   "version": 2,
   "cleanUrls": true,
   "outputDirectory": ".",
-  "redirects": [
-    { "source": "/avv-stimmewirkt-2026-09-13.pdf", "destination": "/avv", "permanent": false }
+  "rewrites": [
+    { "source": "/mara", "destination": "https://stimmeklar-web.vercel.app/mara" },
+    { "source": "/mara.js", "destination": "https://stimmeklar-web.vercel.app/mara.js" },
+    { "source": "/mara.css", "destination": "https://stimmeklar-web.vercel.app/mara.css" },
+    { "source": "/demo-voice.js", "destination": "https://stimmeklar-web.vercel.app/demo-voice.js" },
+    { "source": "/assets/mara-portrait.png", "destination": "https://stimmeklar-web.vercel.app/assets/mara-portrait.png" },
+    { "source": "/api/mara/:path*", "destination": "https://stimmeklar-web.vercel.app/api/mara/:path*" }
   ],
   "headers": [
     {
@@ -11,7 +16,7 @@
       "headers": [
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Content-Security-Policy", "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'" }
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com" }
       ]
     }
   ]
