@@ -1,7 +1,7 @@
 .mara-avatar-media{position:relative}
 .mara-avatar-media__portrait,.faq-mara-cta__portrait{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
-.mara-avatar-media__portrait--idle,.faq-mara-cta__portrait--idle{animation:mara-portrait-idle 1.15s steps(1,end) infinite}
-.mara-avatar-media__portrait--speaking,.faq-mara-cta__portrait--speaking{opacity:0;animation:mara-portrait-speaking 1.15s steps(1,end) infinite}
+.mara-avatar-media .mara-avatar-media__portrait--idle,.faq-mara-cta .faq-mara-cta__portrait--idle{animation:mara-portrait-idle 1.15s steps(1,end) infinite}
+.mara-avatar-media .mara-avatar-media__portrait--speaking,.faq-mara-cta .faq-mara-cta__portrait--speaking{opacity:0;animation:mara-portrait-speaking 1.15s steps(1,end) infinite}
 @keyframes mara-portrait-idle{0%,30%,100%{opacity:1;transform:scale(1)}39%,73%{opacity:0;transform:scale(1.025) translateY(-2px)}}
 @keyframes mara-portrait-speaking{0%,30%,100%{opacity:0;transform:scale(1.005)}39%,73%{opacity:1;transform:scale(1.025) translateY(-2px)}}
-@media(prefers-reduced-motion:reduce){.mara-avatar-media__portrait--idle,.mara-avatar-media__portrait--speaking,.faq-mara-cta__portrait--idle,.faq-mara-cta__portrait--speaking{animation:none}.mara-avatar-media__portrait--idle,.faq-mara-cta__portrait--idle{opacity:1}.mara-avatar-media__portrait--speaking,.faq-mara-cta__portrait--speaking{opacity:0}}
+@media(prefers-reduced-motion:reduce){.mara-avatar-media .mara-avatar-media__portrait--idle,.mara-avatar-media .mara-avatar-media__portrait--speaking,.faq-mara-cta .faq-mara-cta__portrait--idle,.faq-mara-cta .faq-mara-cta__portrait--speaking{animation:none}.mara-avatar-media__portrait--idle,.faq-mara-cta__portrait--idle{opacity:1}.mara-avatar-media__portrait--speaking,.faq-mara-cta__portrait--speaking{opacity:0}}
