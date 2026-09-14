@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/stimmewirkt.css">
   <link rel="stylesheet" href="/mara-animation.css">
+  <script src="/mara-invitation.js" defer></script>
 </head>
 <body class="marketing faq-page">
   <header class="site-header">
@@ -22,12 +23,12 @@
           <h1>Gut informiert.<br><em>Im Gespräch.</em></h1>
           <p class="faq-intro">Diese Antworten und Mara arbeiten mit demselben bestätigten Wissensstand, Version 13. September 2026. Mara ergänzt die FAQ im Gespräch, sie ersetzt keine verbindliche Bestellung oder persönliche Hörabnahme.</p>
         </div>
-        <a class="faq-mara-cta" href="/mara" aria-label="Mit Mara sprechen">
+        <div class="mara-video-invitation"><a class="faq-mara-cta" href="/mara" aria-label="Mit Mara sprechen">
           <span class="avatar-label">KI-Avatar Mara</span>
-          <img class="faq-mara-cta__portrait faq-mara-cta__portrait--idle" src="/assets/mara-portrait.png" width="176" height="146" alt="Mara, der KI-Avatar von Stimmewirkt" loading="lazy">
-          <img class="faq-mara-cta__portrait faq-mara-cta__portrait--speaking" src="/assets/mara-portrait-speaking.png" width="176" height="146" alt="" aria-hidden="true" loading="lazy">
+          <img class="faq-mara-cta__portrait" src="/assets/mara-portrait.png" width="176" height="146" alt="Mara, der KI-Avatar von Stimmewirkt" loading="lazy">
+          <video class="mara-invitation-video" data-src="https://customer-46qyqrg4cc84rgqq.cloudflarestream.com/bae6f1f484294be7cabc8a1001fa58cc/downloads/default.mp4" muted loop playsinline preload="none" disablepictureinpicture disableremoteplayback aria-hidden="true" tabindex="-1"></video>
           <strong>Sprechen Sie mit Mara <span aria-hidden="true">↗</span></strong>
-        </a>
+        </a><button class="mara-motion-toggle" type="button" aria-label="Animation pausieren" aria-pressed="false" hidden>Ⅱ</button></div>
       </div>
       <details open><summary>Was ist eine sprechende Webseite?</summary><p>Eine Website, die bestätigte Inhalte im Gespräch erläutert und Rückfragen aufnimmt.</p></details>
       <details><summary>Für wen ist das Angebot gedacht?</summary><p>Für Handwerk, Beratung und Dienstleistungen, wenn die eigene Website vorab zum Vorhaben passt.</p></details>
