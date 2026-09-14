@@ -8,6 +8,7 @@
     { "source": "/mara.css", "destination": "https://stimmeklar-web.vercel.app/mara.css" },
     { "source": "/demo-voice.js", "destination": "https://stimmeklar-web.vercel.app/demo-voice.js" },
     { "source": "/assets/mara-portrait.png", "destination": "https://stimmeklar-web.vercel.app/assets/mara-portrait.png" },
+    { "source": "/assets/mara-portrait-speaking.png", "destination": "https://stimmeklar-web.vercel.app/assets/mara-portrait-speaking.png" },
     { "source": "/api/mara/:path*", "destination": "https://stimmeklar-web.vercel.app/api/mara/:path*" }
   ],
   "headers": [
